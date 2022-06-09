@@ -19,6 +19,16 @@
             "projectName": "zuul-service",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ControleDePessoasApplication<controle-de-pessoas>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.meuexemplo.controledepessoas.ControleDePessoasApplication",
+            "projectName": "controle-de-pessoas",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
